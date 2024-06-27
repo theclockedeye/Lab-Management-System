@@ -1,0 +1,14 @@
+cd ..
+cd .\env\Scripts\
+.\activate 
+cd ../..
+cd .\frontend\
+npm start
+
+
+cd ..
+cd .\env\Scripts\
+.\activate 
+cd ../..
+cd .\backend\
+python manage.py runserver

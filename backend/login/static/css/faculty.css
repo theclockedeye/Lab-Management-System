@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: block;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+  }
+
+#id{
+    display: block;
+}
+
+.flex-container{
+    display: flex;
+    width:65%;
+    justify-content: center;   
+}
+
+.fbox {
+    flex: 1;
+    height: 200px;
+    width: 30%;
+    margin: 10px;
+    background-color: #3498db;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  

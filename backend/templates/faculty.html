@@ -1,0 +1,23 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link type="text/css" rel="stylesheet" href="{% static "css/faculty.css" %}"/>
+    <title>Student Page</title>
+</head>
+<body>
+    <div id="note">
+        <h2>Welcome to the Faculty  Page!</h2>
+    </div>
+    <br>
+    <div class="flex-container">
+        <div class="fbox">chat</div>
+        <div class="fbox">notification</div>
+        <div class="fbox">attendance</div>
+    </div>
+    <a href="/logout">logout</a>
+</body>
+</html>
